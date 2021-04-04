@@ -1,6 +1,6 @@
 # PowerBIMonitor
 
-Solution to extract:
+A complete solution to extract:
  - Activity events
  - Artifacts metadata
 
