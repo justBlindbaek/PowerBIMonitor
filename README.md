@@ -1,4 +1,4 @@
-# PowerBIMonitor
+# Power BI Monitor
 
 A complete solution to extract:
  - Activity events
