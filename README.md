@@ -1,10 +1,11 @@
 # Power BI Monitor
 
 A complete solution to extract:
- - Activity events
- - Artifacts metadata
+ - Power BI activity/audit events
+ - Power BI artifacts metadata
+ - Graph data (users, groups, licenses)
 
-Using Azure Data Factory
+Using Azure Data Factory or Integration Pipelines in Azure Synapse Analytics
 
 Read more on the solution in these blog posts:
  - https://justb.dk/blog/2021/02/extracting-the-power-bi-activity-log-with-data-factory/
