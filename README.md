@@ -1,11 +1,11 @@
 # Power BI Monitor
 
-A complete solution to extract:
+A complete solution to extract and query:
  - Power BI activity/audit events
  - Power BI artifacts metadata
  - Graph data (users, groups, licenses)
 
-Using Azure Data Factory or Integration Pipelines in Azure Synapse Analytics
+Using Azure Data Factory or Integration Pipelines in Azure Synapse Analytics and the Synapse Serverless SQL Pool.
 
 Read more on the solution in these blog posts:
  - https://justb.dk/blog/2021/02/extracting-the-power-bi-activity-log-with-data-factory/
@@ -13,3 +13,4 @@ Read more on the solution in these blog posts:
  - https://justb.dk/blog/2021/04/extracting-power-bi-metadata-with-data-factory-part-2/
  - https://justb.dk/blog/2022/04/extracting-microsoft-graph-data-with-data-factory/
  - https://justb.dk/blog/2023/01/extracting-power-bi-tenant-metadata-with-synapse-analytics/
+ - https://justb.dk/blog/2023/01/query-power-bi-tenant-metadata-with-synapse-serverless-sql-pool/
