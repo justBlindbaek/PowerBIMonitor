@@ -33,7 +33,7 @@ FROM
     DashboardName VARCHAR(255) '$.displayName', 
     tiles NVARCHAR(MAX) AS JSON
   ) CROSS APPLY openjson (tiles) WITH (
-    TitlId VARCHAR(50) '$.id', 
+    TileId VARCHAR(50) '$.id', 
     TileTitle VARCHAR(200) '$.title', 
     TileReportId VARCHAR(50) '$.reportId',
     TileDatasetId VARCHAR(50) '$.datasetId'
