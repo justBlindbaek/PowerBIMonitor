@@ -24,7 +24,8 @@ SELECT
 FROM 
   OPENROWSET(
     BULK 'https://[StorageAccountName].dfs.core.windows.net/raw/powerbi-tenant/workspaceinfo/year=*/month=*/*', 
-    FORMAT = 'CSV', FIELDQUOTE = '0x0b', 
+    FORMAT = 'CSV', 
+	FIELDQUOTE = '0x0b', 
     FIELDTERMINATOR = '0x0b'
   ) WITH (
     jsonContent VARCHAR(MAX)
