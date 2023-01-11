@@ -17,8 +17,8 @@ SELECT
   UserIdentifier, 
   UserAccessRight, 
   UserPrincipalType, 
-  CAST(CAST(rows.filepath(1) AS VARCHAR(4)) AS INT) AS ExtractYear, 
-  CAST(CAST(rows.filepath(2) AS VARCHAR(2)) AS INT) AS ExtractMonth, 
+  CAST(rows.filepath(1) AS INT) AS ExtractYear, 
+  CAST(rows.filepath(2) AS INT) AS ExtractMonth, 
   CAST(LEFT(RIGHT(CAST(rows.filepath(3) AS VARCHAR(50)),13),8) AS DATE) AS ExtractDate, 
   ADF_PipelineRunId
 FROM 
