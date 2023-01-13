@@ -1,3 +1,8 @@
+USE [powerbimonitor]
+GO
+
+CREATE OR ALTER VIEW [raw].[ActivityEvents] AS
+
 SELECT 
   Activity, 
   ActivityEventId, 
