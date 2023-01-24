@@ -14,3 +14,4 @@ Read more on the solution in these blog posts:
  - https://justb.dk/blog/2022/04/extracting-microsoft-graph-data-with-data-factory/
  - https://justb.dk/blog/2023/01/extracting-power-bi-tenant-metadata-with-synapse-analytics/
  - https://justb.dk/blog/2023/01/query-power-bi-tenant-metadata-with-synapse-serverless-sql-pool/
+ - https://justb.dk/blog/2023/01/query-power-bi-activity-events-with-synapse-serverless-sql/
