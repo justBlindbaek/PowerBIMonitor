@@ -6,7 +6,7 @@ CREATE OR ALTER VIEW [raw].[DashboardTiles] AS
 SELECT 
   DashboardId, 
   DashboardName, 
-  TitlId, 
+  TileId, 
   TileTitle, 
   TileReportId, 
   TileDatasetId, 
