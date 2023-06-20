@@ -4,6 +4,7 @@ A complete solution to extract and query:
  - Power BI activity/audit events
  - Power BI artifacts metadata
  - Graph data (users, groups, licenses)
+ - Fabric tenant settings
 
 Using Azure Data Factory or Integration Pipelines in Azure Synapse Analytics and the Synapse Serverless SQL Pool.
 
@@ -15,3 +16,5 @@ Read more on the solution in these blog posts:
  - https://justb.dk/blog/2023/01/extracting-power-bi-tenant-metadata-with-synapse-analytics/
  - https://justb.dk/blog/2023/01/query-power-bi-tenant-metadata-with-synapse-serverless-sql-pool/
  - https://justb.dk/blog/2023/01/query-power-bi-activity-events-with-synapse-serverless-sql/
+ - https://justb.dk/blog/2023/03/extension-to-the-scanner-api/
+ - https://justb.dk/blog/2023/06/extract-and-query-the-tenant-settings/
