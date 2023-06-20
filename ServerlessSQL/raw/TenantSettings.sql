@@ -1,7 +1,7 @@
 USE [powerbimonitor]
 GO
 
-CREATE OR ALTER VIEW [raw].[PublishedToWeb] AS
+CREATE OR ALTER VIEW [raw].[TenantSettings] AS
 
 SELECT 
   settingName, 
