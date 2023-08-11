@@ -22,3 +22,12 @@ The data is extracted using with either Azure Data Factory or Integration Pipeli
  - https://justb.dk/blog/2023/01/query-power-bi-activity-events-with-synapse-serverless-sql/
  - https://justb.dk/blog/2023/03/extension-to-the-scanner-api/
  - https://justb.dk/blog/2023/06/extract-and-query-the-tenant-settings/
+
+## Alternative solutions
+
+List of other ways and solutions to monitor Power BI and Fabric
+ 
+ - [pbimonitor](https://github.com/RuiRomano/pbimonitor) by Rui Romano. Using PowerShell and including Power BI templates to analyse all the data.
+ - [Admin Monitoring for Tenant Admins](https://learn.microsoft.com/en-us/fabric/admin/monitoring-workspace). The build-in solution from Microsoft.
+ - [Argus PBI](https://www.arguspbi.com/). Payed service to monitoring the whole-tenant for Power BI.
+ - [Power BI Sentinel](https://www.powerbisentinel.com/usage-logging/). Payed service with Governance, Auditing and Disaster Recovery for Power BI and Fabric.
