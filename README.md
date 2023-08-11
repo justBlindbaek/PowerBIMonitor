@@ -1,14 +1,18 @@
-# Power BI and Fabric Monitor
+# Monitoring Power BI and Fabric
 
 A complete solution to extract and query:
- - Power BI & Fabric activity/audit events
- - Power BI & Fabric artifacts metadata
- - Power BI & Fabric tenant settings
+ - Activity/audit events from Power BI & Fabric
+ - Artifacts metadata from Power BI & Fabric
+ - Admin tenant settings (Power BI & Fabric)
  - Microsoft Graph data (users, groups, licenses)
 
-Using Azure Data Factory or Integration Pipelines in Azure Synapse Analytics and the Synapse Serverless SQL Pool.
+## Overall architecture
 
-Read more on the solution in these blog posts:
+The data is extracted using with either Azure Data Factory or Integration Pipelines in Azure Synapse Analytics. If Synapse is used, then the data can be queried with the Serverless SQL Pool and made available for reporting.
+
+![Overall architecture](https://justb.dk/wp-content/uploads/2023/08/Architecture.png)
+
+## The solution is descibed in these blog posts:
  - https://justb.dk/blog/2021/02/extracting-the-power-bi-activity-log-with-data-factory/
  - https://justb.dk/blog/2021/02/extracting-power-bi-metadata-with-data-factory-part-1/
  - https://justb.dk/blog/2021/04/extracting-power-bi-metadata-with-data-factory-part-2/
