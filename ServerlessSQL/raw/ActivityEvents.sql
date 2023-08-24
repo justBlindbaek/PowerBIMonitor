@@ -107,8 +107,7 @@ FROM
     BULK 'https://[StorageAccountName].dfs.core.windows.net/raw/powerbi-tenant/activityevents/year=*/month=*/*', 
     FORMAT = 'CSV', 
     FIELDQUOTE = '0x0b', 
-    FIELDTERMINATOR = '0x0b', 
-    ROWTERMINATOR = '0x0b'
+    FIELDTERMINATOR = '0x0b'
   ) WITH (
     jsonContent varchar(MAX)
   ) AS [rows] CROSS APPLY openjson (jsonContent) WITH (
